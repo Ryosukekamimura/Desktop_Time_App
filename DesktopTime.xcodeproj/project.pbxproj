@@ -13,6 +13,8 @@
 		92F5353B24F663CD00CBF2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F5353A24F663CD00CBF2DF /* Assets.xcassets */; };
 		92F5353E24F663CD00CBF2DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F5353D24F663CD00CBF2DF /* Preview Assets.xcassets */; };
 		92F5354124F663CD00CBF2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F5353F24F663CD00CBF2DF /* Main.storyboard */; };
+		92F5354F24F668FF00CBF2DF /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5354E24F668FF00CBF2DF /* StopWatchView.swift */; };
+		92F5355124F6690C00CBF2DF /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F5355024F6690C00CBF2DF /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		92F5354024F663CD00CBF2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92F5354224F663CD00CBF2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92F5354324F663CD00CBF2DF /* DesktopTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopTime.entitlements; sourceTree = "<group>"; };
+		92F5354E24F668FF00CBF2DF /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		92F5355024F6690C00CBF2DF /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		92F5353224F663CB00CBF2DF /* DesktopTime */ = {
 			isa = PBXGroup;
 			children = (
+				92F5354D24F668E500CBF2DF /* View */,
 				92F5353324F663CB00CBF2DF /* AppDelegate.swift */,
 				92F5353524F663CB00CBF2DF /* ContentView.swift */,
 				92F5353A24F663CD00CBF2DF /* Assets.xcassets */,
@@ -75,6 +80,15 @@
 				92F5353D24F663CD00CBF2DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92F5354D24F668E500CBF2DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92F5354E24F668FF00CBF2DF /* StopWatchView.swift */,
+				92F5355024F6690C00CBF2DF /* Timer.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +164,8 @@
 			files = (
 				92F5353924F663CB00CBF2DF /* DesktopTime.xcdatamodeld in Sources */,
 				92F5353624F663CB00CBF2DF /* ContentView.swift in Sources */,
+				92F5354F24F668FF00CBF2DF /* StopWatchView.swift in Sources */,
+				92F5355124F6690C00CBF2DF /* Timer.swift in Sources */,
 				92F5353424F663CB00CBF2DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
